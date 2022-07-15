@@ -1,0 +1,378 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* position: relative; */
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+}
+        /* navigation */
+        /* .navbar{
+            position: absolute;
+            max-width: 1112px;
+            height: 60px;
+           left:50px;
+            top: 1px;
+        } */
+        .Logo{
+            
+            padding-left: 30px;
+            padding-right: 89.21%;
+           padding-top: 4%;
+         
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 48px;
+            text-decoration: none;
+            color: #3B71FE;
+
+        }
+        .nav-list{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding-top: 20px;
+            gap: 16px;
+            position: absolute;
+            left: 21.67%;
+            right: 22.84%;
+            top: 0%;
+           
+        }
+        .item{
+    
+            list-style: none;
+           
+        }
+        .item a{
+            text-decoration: none;
+        }
+        .X-button{
+            display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 16px 24px;
+        gap: 10px;
+
+        position: absolute;
+        left: 80.04%;
+        right: 10%;
+        top: 9%;
+        bottom: 6.67%;
+        background: #3B71FE;
+        border-radius: 4px;
+        border: 0px solid;
+
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 21px;
+            cursor: pointer;
+
+            color: #FFFFFF;
+
+        }
+        /* navigation end */
+        /* Hero section */
+        /* .hero{
+            position: absolute;
+            width: 1403px;
+            height: 706px;
+            left: 55px;
+            top: 144px;
+            background-color: aquamarine;
+        } */
+            .hello{
+               
+                position: absolute;
+                padding-left: 165px;
+                padding-top: 212px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 171.5%;
+                color: #3B71FE;
+            }
+            /* .group1{
+                position: absolute;
+                width: 673.4px;
+                height: 646px;
+                left: 672px;
+                top: 144px;
+            }
+            .group1{
+                position: absolute;
+                left: 46.67%;
+                right: 39.85%;
+                top: 5.3%;
+                bottom: 93.55%;
+
+                filter: drop-shadow(0px 40px 30px rgba(25, 25, 46, 0.04));
+            } */
+             .wehelp{
+                position: absolute;
+                width: 530px;
+                height: 246px;
+                left: 165px;
+                top: 261px;
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 82px;
+
+                color: #0E0E2C;
+            }
+            .atalented{
+                position: absolute;
+                width: 530px;
+                height: 76px;
+                left: 165px;
+                top: 535px;
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 171.5%;
+                /* or 38px */
+                 color: rgba(14, 14, 44, 0.6);
+            } 
+            /* .group2{
+                position: absolute;
+                width: 450px;
+                height: 56px;
+                left: 165px;
+                top: 665px;
+            } */
+            .X-button2{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 16px 24px;
+                gap: 10px;
+                position: absolute;
+                width: 147px;
+                height: 56px;
+                left: 165px;
+                top: 665px;
+                background: #3B71FE;
+                border-radius: 4px;
+                border-color:  #3B71FE;
+                color: #FFFFFF;
+                border: 0px solid;
+                cursor: pointer;
+
+            }
+            .vector{
+                
+                position: absolute;
+                left: 60.5%;
+                right: 12.5%;
+                top: 30.5%;
+                bottom: 12.5%;
+
+                /* white */
+
+                
+            }
+            .frame73{
+                display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 8px;
+                    gap: 8px;
+
+                    position: absolute;
+                    width: 260px;
+                    height: 51px;
+                    left: 300px;
+                    top: 660px;
+            }
+            .check{
+                width: 212px;
+                height: 35px;
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 33px;
+
+                color: #0E0E2C;
+            }
+            .vector2{
+                position: absolute;
+                left: 83.83%;
+                right: 20.83%;
+                top: 37.83%;
+                bottom: 20.83%;
+            }
+            .group1{
+
+            }
+            .unsplash{
+                position: absolute;
+                width: 525.79px;
+                height: 607.13px;
+                left: 700px;
+                top: 182.87px;
+            }
+            .star1{
+                position: absolute;
+                width: 525.79px;
+                height: 607.13px;
+                left: 735.16px;
+                top: 144px;
+
+                /* main */
+
+                background: #3B71FE;
+                border-radius: 50px;
+            }
+            /* client */
+            /* .ourclient{
+                position: absolute;
+                width: 1094.87px;
+                height: 153.51px;
+                left: 165px;
+                top: 1010px;
+            } */
+            .client{
+                position: absolute;
+                width: 530px;
+                height: 41px;
+                left: 165px;
+                top: 1010px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 171.5%;
+            }
+            .group212{
+                position: absolute;
+                width: 1030.87px;
+                height: 75px;
+                left: 170px;
+                top: 1099px;
+                display: flex;
+                gap:10px;
+                justify-content: space-between;
+            }
+            .clientitems{
+                width: 110px;
+                height: 30.72px;
+            }
+            /* .ourservices{
+                position: absolute;
+                width: 1110px;
+                height: 592px;
+                left: 165px;
+                top: 1323.51px;
+            } */
+            .TheServices{
+                position: absolute;
+                width: 350px;
+                height: 38px;
+                left: 165px;
+                top: 1323.51px;
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 171.5%;
+                color: #3B71FE;
+            }
+            .weoffer{
+                position: absolute;
+                width: 540px;
+                height: 204px;
+                left: 165px;
+                top: 1380.51px;
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 34px;
+                line-height: 51px;
+            }
+            .card{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 14px;
+                position: absolute;
+                width: 246px;
+                height: 222px;
+                left: 744px;
+                top: 1396.51px;
+            }
+            .para1{
+                width: 240px;
+                height: 66px;
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 33px;
+
+                color: #3B71FE;
+            }
+            .para2{
+                width: 246px;
+                height: 72px;
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+
+                color: rgba(14, 14, 44, 0.6);
+            }
+            .card button{
+                box-sizing: border-box;
+
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 16px 24px;
+                gap: 10px;
+
+                width: 161px;
+                height: 56px;
+
+                /* main */
+
+                border: 2px solid #3B71FE;
+                border-radius: 4px;
+
+            }
+            .card button label{
+                width: 79px;
+                height: 21px;
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 21px;
+
+
+                color: #3B71FE;
+            }
