@@ -10,6 +10,9 @@ body
     background: #FFFFFF;
     font-family: 'Poppins';
 }
+ul {
+	list-style: none;
+}
 .navbar{
             width: 85%;
             height: 20%;
@@ -17,7 +20,7 @@ body
             padding-top: 0.063rem;
         }
         .Logo{
-            padding-left: 1%;
+            /* padding-left: 1%; */
             padding-top: 0.1em;
             font-family: 'Poppins';
             font-style: normal;
@@ -38,11 +41,7 @@ body
             right: 23%;
             
         }
-        .item{
-    
-            list-style: none;
-           
-        }
+        
         .item a{
             text-decoration: none;
             color: rgba(14, 14, 44, 0.6);
@@ -402,7 +401,7 @@ body
                 font-style: normal;
                 font-weight: 700;
                 font-size: 2.1rem;
-                width: 48.8%;
+                
             }
             .card{
                 margin: 1% 2% 2% 0%;
@@ -417,13 +416,13 @@ body
                 color: #3B71FE;
             }
             .para2{
-                width: 100%;
               
 
            
                 font-style: normal;
                 font-weight: 400;
-                font-size: .9rem;
+                font-size: 1rem;
+                line-height: 1.5rem;
               
 
                 color: rgba(14, 14, 44, 0.6);
@@ -503,4 +502,120 @@ body
                 font-weight: 400;
                 font-size: 1.125rem;
             }
+        /* our works */
+        .ourworks{
+            width: 70%;
+            margin-top: 10%;
+            margin-left: 7.6%;
+        }
+       
+        .ourworkitem{
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap:5%;
+        }
+        
+       .workheading
+        {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 0.875rem;
+            color: #3B71FE;
+            line-height: 1%;
+
+        }
+        .worktext{
+        
+            font-style: normal;
+            font-weight: 400;
+            font-size: 0.875rem;
+            color: rgba(14, 14, 44, 0.8);
+            line-height: 1rem;
+
+        }
+        .item2{
+            position: absolute;
+            top:178.4rem;
+            left: 51rem;
+        }
+      
+        .workimage{
+            width: 20rem;
+            height: 18.125rem;
+        }
+        .workimage2{
+            width: 20rem;
+            height: 40rem;
+        }
+          /* out works end */
+          /* testimoniel */
+
+        .testmonial{
+            width: 85%;
+            margin-top: 10%;
+            margin-left: 7.6%;
+        }
+        .founder{
+            display: flex;
+            flex-direction: row;
+            gap:14%;
+            padding-top: 5%;
+            padding-left: 5%;
+        }
+        .founder div img{
+            float: left;
+            padding-right: 1%;
+
+        }
+        .name{
+            font-weight: 600;
+            font-size: 1.123rem;
+            line-height: 1.8rem;
+
+            /* identical to box height */
             
+            
+            /* text */
+            
+            color: #0E0E2C;
+        }
+        .position{
+            font-weight: 500;
+            font-size: 1rem;
+            line-height: .6rem;
+            color: rgba(14, 14, 44, 0.8);
+
+        }
+
+         /* testimoniel */
+        /* Footer */
+       .footerfullwidth{
+        width: 100%;
+        background: rgba(160, 164, 171, 0.1);
+       }
+        .footer{
+            width: 85%;
+            margin-top: 10%;
+            margin-left: 7.6%;
+            
+            display: flex;
+            flex-direction: row;
+            gap: 7%;
+        }  
+        .position2{
+
+            font-weight: 500;
+            font-size: 1rem;;
+            line-height: 1.6rem;
+            padding-top: 4%;
+            color: rgba(14, 14, 44, 0.8);
+
+        }
+        .listitemfooter{
+            line-height: 1.6rem;
+            
+
+        }
+           /* Footer */
