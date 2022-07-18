@@ -93,7 +93,7 @@ ul {
                 width: 6.3rem;
                 height: 27rem;
                 left: 2.3%;
-                top: 42%;
+                top: 39%;
 
 
             }
@@ -366,7 +366,7 @@ ul {
                     display: flex;
                     
                     flex-wrap: wrap;
-                    gap: 7.1%;
+                    gap: 6.2%;
                 }
                 .clientitems{
                 width: 10%;
@@ -392,15 +392,17 @@ ul {
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: row;
-                gap: 3%;
+                gap: 2.7%;
                 justify-content:flex-start;
                
             }
             .weoffer{
                 
-                font-style: normal;
                 font-weight: 700;
-                font-size: 2.1rem;
+                font-size: 2.125rem;
+                line-height: 3.188rem;
+                
+                color: #0E0E2C;
                 
             }
             .card{
@@ -408,7 +410,6 @@ ul {
                 /* padding-left :1%; */
             }
             .para1{
-                width: 100%;
                
                 font-style: normal;
                 font-weight: 700;
@@ -416,9 +417,6 @@ ul {
                 color: #3B71FE;
             }
             .para2{
-              
-
-           
                 font-style: normal;
                 font-weight: 400;
                 font-size: 1rem;
@@ -533,11 +531,10 @@ ul {
             font-size: 0.875rem;
             color: rgba(14, 14, 44, 0.8);
             line-height: 1rem;
-
         }
         .item2{
             position: absolute;
-            top:178.4rem;
+            top:162.8rem;
             left: 51rem;
         }
       
