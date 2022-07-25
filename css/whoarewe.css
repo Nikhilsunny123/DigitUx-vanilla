@@ -1,0 +1,191 @@
+:root{
+    /* Color */
+    --primary-color:#3B71FE;
+    --boxText-color:#FFFFFF;
+    --largeText-color: #0E0E2C;
+    --text-color: rgba(14, 14, 44, 0.6);
+
+    /* sizing */
+    --primary-size-32:2rem;
+    --boxText-size-14:0.875rem;
+    --navText-size-16:1rem;
+    --LargeText-size-40:2.5rem;
+    --text-size-22:1.375rem; 
+
+    /* font syle */
+    --normal-style:normal;
+    /* Font weight */
+    --font-weight-400:400;
+    --font-weight-500:500;
+    --font-weight-600:600;
+    --font-weight-700:700;
+    /* Line height */
+    --line--height-171:171%;
+
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins';
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-style: var(--normal-style);
+}
+ul {
+	list-style: none;
+}
+/* navigation */
+.navbar {
+        padding-top: .2%;
+            height: 10%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .Logo
+        {
+            
+            font-size: var(--primary-size);
+            font-style: normal;
+            font-weight: bold;
+            color: var(--primary-color);
+            text-decoration: none;   
+            
+        }
+        .nav-list
+        {
+            padding: 0%;
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: var(--navText-size);
+            color: var(--text-color); 
+        }
+        
+        .item a{
+            text-decoration: none;
+        }
+
+        .X-button
+
+        {
+            background: var(--primary-color);
+            border-radius: 4px;
+            border: 0px solid;
+            font-style: normal;
+            font-weight: var(--font-weight-600);
+            font-size: var(--boxText-size);
+            cursor: pointer;
+            color: var(--boxText-color);
+        }
+        /* about us */
+        .aboutus{
+            margin-top: 6%;
+            width: 100%;
+
+        }
+        .abouttext
+        {
+            text-align: center;
+            font-style: var(--normal-style);
+           
+        }
+        .abouttext h1{
+            color:var(--primary-color);
+            font-weight: var(--font-weight-700);
+            font-size: var(--text-size);
+            /* line-height: var(--line--height-171);
+         */
+        }
+        .abouttext p{
+            color:var(--largeText-color);
+            font-weight: var(--font-weight-700);
+            font-size: var(--LargeText-size);
+            line-height: var(--line--height-171);
+        }
+        .abouttext :nth-child(3){
+            color:var(--text-color);
+            font-weight: var(--font-weight-400);
+            font-size: var(--text-size);
+            line-height: var(--line--height-171);
+        }
+        .abouttext div{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 5%;
+        }
+        .abouttext div button{
+            display: flex;
+            flex-direction: row;
+            
+            align-items: center;
+            gap: .8rem;
+            padding: 1.7% 3.5%;
+            background:var(--primary-color);
+            border: none;
+            border-radius: 4px;
+            color: var(--boxText-color);
+            font-size: var(--boxText-size-14);
+        }
+        .abouttext div span{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: .8rem;
+            color: var(--largeText-color);
+            font-size: var(--text-size-22);
+            font-weight: var(--font-weight-500);
+
+        }
+        /* Team */
+        .theteam{
+            margin-top: 10%;
+            width: 100%;
+
+
+        }
+        .theteam h1{
+                        margin: 0;
+                        font-style: var(--normal-style);
+                        font-weight: var(--font-weight-700);
+                        font-size: var(--text-size-22);
+                      
+                        color:var(--primary-color);
+                    }
+        .teamgroup{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3%;
+            margin-top: 2%;
+        }
+        .teamgroup >p{
+            margin: 0;
+            color: var(--largeText-color);
+            font-size: var(--LargeText-size-40);
+            font-weight: var(--font-weight-700);
+            font-style: var(--normal-style);
+  
+        }
+            .profile{
+                
+            }
+            .name{
+
+            }
+            .position{
+
+            }
+
+
+
