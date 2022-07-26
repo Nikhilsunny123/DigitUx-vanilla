@@ -38,6 +38,9 @@ a{
     text-decoration: none;
     
 }
+a:hover{
+    color: #0E0E2C;
+}
 .container
 {
    
@@ -68,7 +71,6 @@ ul {
             width: 100%;
             display: flex;
             justify-content: space-between;
-        
         }
         .Logo
         { 
@@ -85,6 +87,9 @@ ul {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            
+        }
+        .nav-list li a{
             font-size:var(--navText-size-16);
             color: var(--text-color); 
         }
@@ -200,9 +205,7 @@ ul {
                 font-weight:var(--font-weight-400);
                 color: var(--text-color);
             }
-
         /* testimoniel */
-
                 .testmonial{
                     width: 100%;
                 }
@@ -257,7 +260,6 @@ ul {
         /* testimoniel */
 
         /* Footer */
-
                 .footer{
                     width: 100%;
    
@@ -272,7 +274,8 @@ ul {
                 .footerhead{
                     font-style: normal;
                     font-weight: 600;
-                    font-size: var(--navText-size-16);
+                    font-size:1.125rem;
+                    font-size: 18px;
                     line-height: 171.5%;
                     color: #0E0E2C;
                 } 
@@ -285,10 +288,10 @@ ul {
                 }
                 .footerflex{
                     display: flex;
-                    flex-direction: row;
-                    gap: 2%;
+                    flex-direction:row;
+                    justify-content:flex-start;
+                    gap: 4%; 
                 }
-               
                 .footerimages1{
                     width: .75rem;
                     padding-right: 5px;
