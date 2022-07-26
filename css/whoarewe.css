@@ -306,13 +306,14 @@ ul {
                     padding-left: 5%;
                     float: left;
 
-                    width: 8rem;
-                    height: 2rem;
+                    width: 14rem;
+                    height: 3rem;
                     background: url("images/Vectorfootervector.svg") center;
                     /* Gry/normal */
 
                     border: 1px solid #767676;
                     border-radius: 4px;
+                    background: #FFFFFF;
                 }
                 .listitemfooter{
                     line-height: 1.6rem;
