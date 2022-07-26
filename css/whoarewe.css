@@ -30,11 +30,6 @@ body
     /* max-width: 1080px;  */
 	
 
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    max-width: 1440px;
-    width: 100%;
-    margin: auto;
 }
 button:hover{
     cursor: pointer;
@@ -45,12 +40,23 @@ a{
 }
 .container
 {
+   
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
     padding-left: 6%;
     padding-right: 6%;
     box-sizing: border-box;
     overflow: hidden;
     font-style: var(--normal-style);
    
+}
+.containerbackground{
+    background:rgba(160, 164, 171, 0.1);
+    margin-top: 10%;
+
 }
 
 ul {
@@ -199,7 +205,6 @@ ul {
 
                 .testmonial{
                     width: 100%;
-                    margin-top: 10%;
                 }
                 .heading
                 {
@@ -255,11 +260,10 @@ ul {
 
                 .footer{
                     width: 100%;
-                    margin-top: 10%;
+   
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;
-                    background: rgba(160, 164, 171, 0.1);
                 } 
                 .footer div a{
                     margin-top: 5vh;
@@ -302,17 +306,13 @@ ul {
                     padding-left: 5%;
                     float: left;
 
-                    width: 45vh;
-                    height: 8vh;
-
-
+                    width: 8rem;
+                    height: 2rem;
                     background: url("images/Vectorfootervector.svg") center;
                     /* Gry/normal */
 
                     border: 1px solid #767676;
                     border-radius: 4px;
-
-
                 }
                 .listitemfooter{
                     line-height: 1.6rem;
